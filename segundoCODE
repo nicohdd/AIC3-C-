@@ -1,0 +1,22 @@
+#include <iostream>
+
+class VAMOSQUERER
+{
+public:
+    float peso, quantidade;
+
+    int pessagem()
+    {
+        std::cin >> peso;
+        std::cin >> quantidade;
+
+        return peso * quantidade;
+    }
+};
+
+int main()
+{
+    VAMOSQUERER HJESEXTA;
+    std::cout << HJESEXTA.pessagem() << std::endl;
+    return 0;
+}
