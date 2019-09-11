@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+
+class PONTO{
+    public:
+    float X;
+    float Y;
+
+    double distancia(){
+        return sqrt((X*X) + (Y*Y));
+    }
+};
+
+
+
+int main(){
+    PONTO ricardo;
+    std::cin >> ricardo.X;
+    std::cin >> ricardo.Y;
+    std::cout << ricardo.distancia() << std::endl;
+    return 0;
+}
